@@ -1,0 +1,7 @@
+java_binary(
+    name = "foo",
+    create_executable = False,
+    runtime_deps = [
+        "@maven//com/google/cloud:google_cloud_core",
+    ],
+)
